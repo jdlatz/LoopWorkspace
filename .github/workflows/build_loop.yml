@@ -37,7 +37,7 @@ jobs:
 
           # Submodule LoopKit patches:
           # LoopKit: Filename: Expand Guardrail settings
-          #curl https://github.com/jdlatz/LoopKit/commit/3bb2d066b54aa874e7075fca575b350c3d1b569e.patch | git apply -v --directory=LoopKit 
+          curl https://github.com/jdlatz/LoopKit/commit/3bb2d066b54aa874e7075fca575b350c3d1b569e.patch | git apply -v --directory=LoopKit 
       
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
